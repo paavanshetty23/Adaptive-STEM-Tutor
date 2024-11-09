@@ -1,0 +1,58 @@
+# Ignore the virtual environment folder
+env/
+
+# Ignore environment variable files
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints
+
+# Ignore any DS_Store files (macOS)
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.temp
+
+# Streamlit specific
+.streamlit/
+
+# Ignore any CSV or dataset files (adjust if needed)
+*.csv
+*.tsv
+*.data
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore coverage reports
+.coverage
+*.coverage
+*.cov
+*.cover
+htmlcov/
+
+# Unit test / coverage reports
+*.pytest_cache/
+.tox/
+.nox/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore other temporary files
+*.bak
+*.swp
